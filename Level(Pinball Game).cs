@@ -8,7 +8,7 @@ public class Level : MonoBehaviour
 {
     [SerializeField] int countTarget;
 
-    //[SerializeField] int scoreGoalToLoadNextScene;
+    [SerializeField] int scoreGoalToLoadNextScene;
 
     GameStatus gameStatus;
 
@@ -19,7 +19,7 @@ public class Level : MonoBehaviour
     }
     private void Update()
     {
-       // LoadNextLevel();
+        LoadNextLevel();
     }
     public void CountBreakableTarget()
     {

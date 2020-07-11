@@ -15,7 +15,7 @@ public class GameStatus : MonoBehaviour
   
     // Start is called before the first frame update
 
-    /*private void Awake()
+    private void Awake()
     {
 
         int gameStatusCount = FindObjectsOfType<GameStatus>().Length;
@@ -28,7 +28,7 @@ public class GameStatus : MonoBehaviour
             DontDestroyOnLoad(gameObject);
         }
     }
-   */
+   
 
     // Update is called once per frame
     void Update()

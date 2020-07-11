@@ -6,10 +6,11 @@ using UnityEngine;
 public class LeftFlipperMovement : MonoBehaviour
 {
     public float flipperForce;
+    
     public GameObject ball;
     
-
     private Animator anim;
+    
     // Start is called before the first frame update
     void Start()
     {

@@ -5,14 +5,8 @@ using UnityEngine;
 public class TwitterMouseMovement : MonoBehaviour
 {
     [SerializeField] float screenHeightInUNits = 24f;
+    
     float minY = 3.2f, maxY = 10.16f;
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -21,7 +15,5 @@ public class TwitterMouseMovement : MonoBehaviour
         Vector2 twitterPos = new Vector2(transform.position.x, transform.position.y);
         twitterPos.y = Mathf.Clamp(mousePositionInUnits, minY, maxY);
         transform.position = twitterPos;
-
-
     }
 }

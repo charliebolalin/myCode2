@@ -9,6 +9,7 @@ public class RightFlipperMovement : MonoBehaviour
     public GameObject ball;
 
     private Animator anim2;
+    
     // Start is called before the first frame update
     void Start()
     {

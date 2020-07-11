@@ -57,8 +57,4 @@ public class Ball : MonoBehaviour
     }
 
    
-
-
-
-
 }

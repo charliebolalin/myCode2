@@ -5,8 +5,8 @@ using UnityEngine;
 public class RightFlipperMovement : MonoBehaviour
 {
     public float flipperForce;
+    
     public GameObject ball;
-
 
     private Animator anim2;
     // Start is called before the first frame update

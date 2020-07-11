@@ -26,7 +26,7 @@ public class Level : MonoBehaviour
         countTarget++;
     }
 
-    /*private void LoadNextLevel()
+    private void LoadNextLevel()
     {
 
         if (gameStatus.currentScore == scoreGoalToLoadNextScene)
@@ -34,7 +34,7 @@ public class Level : MonoBehaviour
             SceneManager.LoadScene(1);
         }
     }
-    */
+    
     public void LoadStartGame()
     {
         SceneManager.LoadScene(0);
